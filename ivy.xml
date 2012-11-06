@@ -22,8 +22,8 @@
 		<dependency org="javax.servlet" name="jstl" rev="1.2" conf="runtime->default" />
 		
 		<!-- JPA -->
-		<dependency org="hsqldb" name="hsqldb" rev="1.8.0.10" conf="runtime->default"/>
-		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="4.1.7.Final" conf="runtime->default"/>
+		<dependency org="hsqldb" name="hsqldb" rev="1.8.0.10" conf="source,runtime->default"/>
+		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="4.1.7.Final" conf="source,runtime->default"/>
 		
 		<!-- Spring -->
 		<dependency org="org.springframework" name="spring-core" rev="3.1.2.RELEASE" conf="source,runtime->default" /> 

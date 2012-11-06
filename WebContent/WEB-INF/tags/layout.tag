@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Example</title>
+	<title>I377-stack</title>
 </head>
 <body>
 	<jsp:doBody />

@@ -11,6 +11,8 @@ import ee.itcollege.i377.model.Guard;
 public class GuardDaoImpl implements GuardDao {
 	
 	private static Logger log = Logger.getLogger(GuardDaoImpl.class);
+	
+	public static final String PERSISTENCE_UNIT_NAME = "I377-stack";
 
 	@Override
 	public void addGuard(Guard guard) {
