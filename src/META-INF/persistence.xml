@@ -3,15 +3,17 @@
 	<persistence-unit name="I377-stack" transaction-type="RESOURCE_LOCAL">
 		<class>ee.itcollege.i377.model.Guard</class>
 		<properties>
-			
+			<!-- JPA configuration -->
 			<property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:file:i377stack"/>
 			<property name="javax.persistence.jdbc.user" value="sa"/>
 			<property name="javax.persistence.jdbc.password" value=""/>
 			<property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbc.JDBCDriver"/>
 			
-			<!--
-			<property name="hibernate.dialect" value="org.hibernate.dialect.HSQLDialect" />
-			-->
+			<!-- Hibernate configuration -->
+			<property name="hibernate.show_sql" value="true"/>
+            <property name="hibernate.format_sql" value="true"/>
+            <!-- This creates database tables automatically -->
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
 		</properties>
 	</persistence-unit>
 </persistence>

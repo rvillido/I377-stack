@@ -22,4 +22,6 @@
 		</table>
 	</c:if>
 	
+	<a href="guardForm">Add New</a>
+	
 </pr:layout>
