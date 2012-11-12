@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>I377-stack</title>
+	<title><spring:message code="layout.title"/></title>
 </head>
 <body>
 	<jsp:doBody />

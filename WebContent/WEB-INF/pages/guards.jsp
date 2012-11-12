@@ -1,8 +1,9 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib tagdir="/WEB-INF/tags" prefix="pr" %>
 
 <pr:layout>
-	<h3>Guards</h3>
+	<h3><spring:message code="guards.title"/></h3>
 	
 	<c:if test="${not empty allGuards}">
 		

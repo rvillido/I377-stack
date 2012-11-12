@@ -19,6 +19,11 @@
         <property name="suffix" value=".jsp" />
         <property name="contentType" value="text/html; charset=UTF-8" />
     </bean>
+    
+    <bean id="messageSource"
+		class="org.springframework.context.support.ResourceBundleMessageSource">
+		<property name="basename" value="messages"/>
+	</bean>
 
 </beans>
 
