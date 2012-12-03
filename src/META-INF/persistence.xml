@@ -4,7 +4,7 @@
 		<class>ee.itcollege.i377.model.Guard</class>
 		<properties>
 			<!-- JPA configuration -->
-			<property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:file:i377stack"/>
+			<property name="javax.persistence.jdbc.url" value="jdbc:hsqldb:file:${user.home}/i377/Team0/db;shutdown=true"/>
 			<property name="javax.persistence.jdbc.user" value="sa"/>
 			<property name="javax.persistence.jdbc.password" value=""/>
 			<property name="javax.persistence.jdbc.driver" value="org.hsqldb.jdbc.JDBCDriver"/>
